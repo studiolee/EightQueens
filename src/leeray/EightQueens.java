@@ -70,7 +70,7 @@ public class EightQueens {
 				else
 					System.out.print("@");
 			}
-			System.out.println("----------分割线-------------");
+			System.out.println();
 		}
 	}
 }
