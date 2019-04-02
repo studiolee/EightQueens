@@ -10,9 +10,7 @@ import java.io.FileWriter;
  */
 public class ToText {
 	public static void main(String[] args) {
-		for(int i = 0;i<8;i++){
-			Queen(i);
-		}
+		Queen(0);
 	}
 
 	static int A[] = new int[22];
