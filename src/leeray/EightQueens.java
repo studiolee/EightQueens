@@ -56,8 +56,6 @@ public class EightQueens {
 		}
 	}
 
-	/**
-	 */
 	static int count = 0;//计数
 
 	static void Display(int[] arr, int n) {

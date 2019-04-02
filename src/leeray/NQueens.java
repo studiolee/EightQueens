@@ -36,7 +36,10 @@ public class NQueens {
 			temp.add(str);
 		}
 	}
-
+	
+	//由于要使用递归求解，没有办法，只能将标志数组定义成静态的，大小也确定了
+	//根据Y的大小，可以看出此程序最多支持334皇后问题，之歌问题已经很大了，如果有需求可以再加
+	//依据的规则是Y{n} - A[3n-2]-B[3n-2]-C[3n-2]
 	static int A[] = new int[1000];
 	static int B[] = new int[1000];
 	static int C[] = new int[1000];
